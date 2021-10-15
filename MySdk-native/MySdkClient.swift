@@ -11,10 +11,10 @@ public class MySdkClient {
     // SHOULD BE THE SAME NAME DEFINED IN ./app.json
     private let MODULE_NAME: String = "MySdk"
     
-    private let environment: Environment;
+    private let initialProperties: NSDictionary;
     
-    public init(_ environment: Environment, _ initialProperties: NSDictionary) {
-        self.environment = environment;
+    public init(_ initialProperties: NSDictionary) {
+        self.initialProperties = initialProperties;
     }
 
     public func getView() -> UIView{
@@ -24,7 +24,7 @@ public class MySdkClient {
         let view = RCTRootView(
             bundleURL: JS_BUNDLE,
             moduleName: MODULE_NAME,
-            initialProperties: initialProperties,
+            initialProperties: self.initialProperties as [NSObject : AnyObject],
             launchOptions: nil)
         
         return view;
