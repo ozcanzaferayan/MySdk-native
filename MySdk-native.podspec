@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MySdk-native"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "MySdk-native"
   s.description  = "MySdk-native react native SDK"
   s.homepage     = "https://github.com/ozcanzaferayan"
