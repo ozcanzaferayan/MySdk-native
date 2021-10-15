@@ -1,9 +1,3 @@
-//
-//  MySdkClient.swift
-//  MySdk-native
-//
-//  Created by Abdullah Asendar on 10/29/20.
-//
 import React
 import Foundation
 

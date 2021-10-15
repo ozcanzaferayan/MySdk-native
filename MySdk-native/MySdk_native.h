@@ -1,10 +1,3 @@
-//
-//  MySdk_native.h
-//  MySdk-native
-//
-//  Created by Abdullah Asendar on 11/6/20.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for MySdk_native.
