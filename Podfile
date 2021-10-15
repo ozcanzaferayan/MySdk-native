@@ -15,6 +15,6 @@ target 'MySdk-native' do
   pod 'RCTRequired'
   pod 'RCTTypeSafety'
   
-  pod 'RNFastImage', :git=> 'git@github.com:DylanVann/react-native-fast-image.git', :tag=> 'v8.3.3'
+  #pod 'RNFastImage', :git=> 'git@github.com:DylanVann/react-native-fast-image.git', :tag=> 'v8.3.3'
 
 end

@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   s.dependency 'RCTRequired'
   s.dependency 'RCTTypeSafety'
 
-  s.dependency 'RNFastImage'
+  #s.dependency 'RNFastImage'
 end
